@@ -1,0 +1,233 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #023436;
+}
+
+#cabecalho .nav .nav-link.active
+{
+    background-color: #00bfb3;
+    color: #023436
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cartoes .nav-link.active:hover {
+    color: #00bfb3;
+}
+
+.navbar-toggler {
+    background-color: #00bfb3;
+}
+
+.section-title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+}
+
+#sobre-nos,
+#cartoes {
+    background-color: #049a8f;
+}
+
+#text-green {
+    color: #023436;
+}
+
+.nav-cartoes .nav-link.active {
+    background-color: #023436;
+    color: #fff;
+}
+
+#enviar {
+    background-color: #00bfb3;
+    color: #023436;
+}
+
+.nav-cartoes .nav-link:hover {
+    color: #023436;
+}
+
+.carousel-item {
+    height: 700px;
+    width: 100%;
+}
+
+#apresentacao2 {
+    height: 20px;
+}
+
+#investimentos,
+#fale-conosco,
+.text-colored {
+    background-color: #023436;
+    color: #00bfb3;
+}
+
+.col-md-4 button {
+    color: #023436;
+}
+
+button.btn.btn-success {
+    background-color: #023436;
+    color: #00bfb3;
+    width: 50%;
+    margin-left: 160px;
+}
+
+.social-link.d-flex {
+    text-decoration: none;
+    list-style: none;
+}
+
+section {
+    padding-top: 75px;
+}
+
+.desktop {
+    font-style: normal;
+    margin-left: 8px;
+}
+
+.boneco {
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+}
+
+section#slide {
+    padding-top: 0;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img,
+    .carousel.slide {
+        height: 280px;
+    }
+
+    .boneco {
+        display: none;
+    }
+
+    button.btn.btn-success {
+        background-color: #023436;
+        color: #00bfb3;
+        width: 50%;
+        margin-left: 70px;
+    }
+
+    .navbar-toggler {
+        margin-bottom: 16px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    section#slide {
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    body {
+        font-family: Roboto, sans-serif;
+    }
+    
+    .navbar {
+        background-color: #023436;
+    }
+    
+    #cabecalho .nav .nav-link.active
+    {
+        background-color: #00bfb3;
+        color: #023436
+    }
+    
+    #cabecalho .nav .nav-link,
+    .navbar-brand,
+    .navbar-brand:hover,
+    .nav-cartoes .nav-link.active:hover {
+        color: #00bfb3;
+    }
+    
+    .navbar-toggler {
+        background-color: #00bfb3;
+    }
+    
+    .section-title {
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: bold;
+    }
+    
+    #sobre-nos,
+    #cartoes {
+        background-color: #049a8f;
+    }
+    
+    #text-green {
+        color: #023436;
+    }
+    
+    .nav-cartoes .nav-link.active {
+        background-color: #023436;
+        color: #fff;
+    }
+    
+    #enviar {
+        background-color: #00bfb3;
+        color: #023436;
+    }
+    
+    .nav-cartoes .nav-link:hover {
+        color: #023436;
+    }
+    
+    .carousel-item {
+        height: 400px;
+        width: 100%;
+    }
+
+    section#slide {
+        padding-top: 0;
+    }
+    
+    #apresentacao2 {
+        height: 20px;
+    }
+    
+    #investimentos,
+    #fale-conosco,
+    .text-colored {
+        background-color: #023436;
+        color: #00bfb3;
+    }
+    
+    .col-md-4 button {
+        color: #023436;
+    }
+    
+    button.btn.btn-success {
+        background-color: #023436;
+        color: #00bfb3;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 12px;
+    }
+    
+    .social-link.d-flex {
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .desktop {
+        display: none;
+    }
+    
+    section {
+        padding-top: 75px;
+    }
+}
